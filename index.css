@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #303952;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+}
+
+.nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 900;
+  color: #cf6a8799;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.nav a:hover {
+  color: #c44569;
+}
+
+.nav .selected {
+}
+
+.presentation-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+header {
+  margin: 2% auto;
+  max-width: 700px;
+}
+
+header .nav a {
+  font-size: 1.4rem;
+}
+
+main {
+  margin: 5% auto;
+  max-width: 700px;
+}
+
+main ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+main ul li {
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding: 30px 60px;
+  box-sizing: border-box;
+}
+
+/* Styling for picture */
+.picture {
+  width: 200px;
+  border-radius: 200px;
+  margin-right: 20px;
+}
+
+.picture-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 0;
+  color: #303952;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.social-media-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.twitter-icon {
+  color: rgb(29, 161, 242);
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+.twitter-icon:hover,
+.linkedin-icon:hover {
+  background-color: #ff6b6b11;
+}
+
+.contact {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #cf6a87;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 350px solid transparent;
+  border-bottom: 350px solid transparent;
+
+  border-left: 450px solid #f5cd79;
+  position: fixed;
+  bottom: -300px;
+  left: 0;
+}
+
+.publication {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.publication .journal-name {
+  /* font-style: italic; */
+  font-weight: 400;
+}
+
+.publication a {
+  color: #cf6a87;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.publication a:hover {
+  background-color: #cf6a8744;
+}
+
+.conference .name {
+  font-weight: 200;
+  font-size: 1.6rem;
+}
+
+.conference .city {
+  color: #cf6a87;
+}
